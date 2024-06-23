@@ -1,0 +1,159 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    color: antiquewhite;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: dimgray;
+}
+.menu {
+    height: 84px;
+    width: 100%;
+    position: fixed;
+    text-decoration: none;
+    background-color: rgb(65, 65, 65);
+    text-align: center;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu ul li a:hover {
+    transition: 0.2s;
+    background-color: rgb(123, 123, 123);
+}
+.menu ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    padding: 25px 30px;
+    color:antiquewhite;
+}
+.titulo {
+    padding-top: 84px;
+    text-align: center;
+}
+p {
+    text-indent: 3em;
+    font-size: 25px;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+.sobre {
+    padding-top: 100px;
+}
+.ss {
+    position: relative;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(65, 65, 65);
+    border-radius: 10px;
+}
+.form ul {
+    padding-top: 84px;
+}
+.form ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+    text-align: center;
+    padding: 10px;
+}
+.form ul li input {
+    border: rgb(65, 65, 65) solid 3px;
+    color: black;
+}
+.form ul li input::placeholder {
+    border: rgb(65, 65, 65) solid 3px;
+    color: black;
+}
+.form ul li select {
+    border: rgb(65, 65, 65) solid 3px;
+    width: 170px;
+    background-color: #ffffff;
+    height: 21.6px;
+    color: black;
+}
+.form ul li select option {
+    color: black;
+}
+.form ul li p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+    padding: 0px !important;
+}
+.form ul li textarea {
+    border: rgb(65, 65, 65) solid 3px;
+    color: black;
+    height: 17em;
+    resize: none;
+}
+.form ul li #enviar {
+    border: rgb(65, 65, 65) solid 3px;
+    margin-right: 10px;
+    margin-left: auto;
+    font-size: 1.2em;
+    color: black;
+    background-color: #ffffff;
+}
+.form ul li #limpar {
+    border: rgb(65, 65, 65) solid 3px;
+    margin-left: 10px;
+    margin-right: auto;
+    font-size: 1.2em;
+    color: black;
+    background-color: #ffffff;
+}
+.dados {
+    padding-top: 35vh;
+    text-align: center;
+}
+.footer {
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    background-color: rgb(65, 65, 65);
+    text-align: center;
+    color: antiquewhite;
+}
+.footerbb {
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(65, 65, 65);
+    text-align: center;
+    color: antiquewhite;
+    position: absolute;
+}
+audio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rodaviva {
+    text-indent: unset;
+}
+.charge {
+    position: relative;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid rgb(65, 65, 65);
+    border-radius: 10px;
+}
+.bibliografia ul li {
+    align-items: center;
+    text-align: center;
+    padding-top: 140px;
+}
+.bibliografia ul li a {
+    font-size: 2em;
+}
